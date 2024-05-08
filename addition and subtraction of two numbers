@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main()
+{
+    int a,b,add,sub;
+    printf("Enter the two numbers");
+    scanf("%d%d",&a,&b);
+    add=a+b;
+    sub=a-b;
+    printf("addition of two numbers %d\n",add);
+    printf("subbraction of two numbers %d\n",sub);
+}
